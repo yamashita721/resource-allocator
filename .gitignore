@@ -1,0 +1,15 @@
+# Virtual Environment
+venv/
+env/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Generated Data & Logs
+data/*.csv
+mock_blockchain.json
+
+# Streamlit
+.streamlit/
