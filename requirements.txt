@@ -4,3 +4,6 @@ scipy
 fastapi
 uvicorn
 streamlit
+networkx
+plotly
+scikit-learn

@@ -1,0 +1,1656 @@
+{
+    "nodes": [
+        {
+            "id": "Z-001",
+            "type": "zone",
+            "latitude": 14.2611,
+            "longitude": 121.3495
+        },
+        {
+            "id": "Z-002",
+            "type": "zone",
+            "latitude": 13.1338,
+            "longitude": 121.0969
+        },
+        {
+            "id": "Z-003",
+            "type": "zone",
+            "latitude": 13.803,
+            "longitude": 121.4437
+        },
+        {
+            "id": "Z-004",
+            "type": "zone",
+            "latitude": 13.3498,
+            "longitude": 120.8884
+        },
+        {
+            "id": "Z-005",
+            "type": "zone",
+            "latitude": 13.5144,
+            "longitude": 120.9787
+        },
+        {
+            "id": "Z-006",
+            "type": "zone",
+            "latitude": 13.711,
+            "longitude": 121.3296
+        },
+        {
+            "id": "Z-007",
+            "type": "zone",
+            "latitude": 13.5327,
+            "longitude": 120.1665
+        },
+        {
+            "id": "Z-008",
+            "type": "zone",
+            "latitude": 13.9732,
+            "longitude": 120.5726
+        },
+        {
+            "id": "Z-009",
+            "type": "zone",
+            "latitude": 13.7194,
+            "longitude": 121.3571
+        },
+        {
+            "id": "Z-010",
+            "type": "zone",
+            "latitude": 13.8763,
+            "longitude": 121.0788
+        },
+        {
+            "id": "Z-011",
+            "type": "zone",
+            "latitude": 14.1052,
+            "longitude": 120.832
+        },
+        {
+            "id": "Z-012",
+            "type": "zone",
+            "latitude": 13.8366,
+            "longitude": 121.8264
+        },
+        {
+            "id": "Z-013",
+            "type": "zone",
+            "latitude": 13.8798,
+            "longitude": 121.7343
+        },
+        {
+            "id": "Z-014",
+            "type": "zone",
+            "latitude": 13.8467,
+            "longitude": 120.4168
+        },
+        {
+            "id": "Z-015",
+            "type": "zone",
+            "latitude": 13.5682,
+            "longitude": 122.1966
+        },
+        {
+            "id": "Z-016",
+            "type": "zone",
+            "latitude": 13.5062,
+            "longitude": 121.2386
+        },
+        {
+            "id": "Z-017",
+            "type": "zone",
+            "latitude": 14.3495,
+            "longitude": 121.8537
+        },
+        {
+            "id": "Z-018",
+            "type": "zone",
+            "latitude": 13.9113,
+            "longitude": 121.4329
+        },
+        {
+            "id": "Z-019",
+            "type": "zone",
+            "latitude": 13.3665,
+            "longitude": 122.4942
+        },
+        {
+            "id": "Z-020",
+            "type": "zone",
+            "latitude": 13.7474,
+            "longitude": 121.881
+        },
+        {
+            "id": "Z-021",
+            "type": "zone",
+            "latitude": 13.4955,
+            "longitude": 121.7675
+        },
+        {
+            "id": "Z-022",
+            "type": "zone",
+            "latitude": 14.4005,
+            "longitude": 121.9464
+        },
+        {
+            "id": "Z-023",
+            "type": "zone",
+            "latitude": 13.0113,
+            "longitude": 120.3578
+        },
+        {
+            "id": "Z-024",
+            "type": "zone",
+            "latitude": 13.338,
+            "longitude": 120.5114
+        },
+        {
+            "id": "Z-025",
+            "type": "zone",
+            "latitude": 13.548,
+            "longitude": 121.7852
+        },
+        {
+            "id": "Z-026",
+            "type": "zone",
+            "latitude": 13.7317,
+            "longitude": 121.235
+        },
+        {
+            "id": "Z-027",
+            "type": "zone",
+            "latitude": 14.2762,
+            "longitude": 121.8866
+        },
+        {
+            "id": "Z-028",
+            "type": "zone",
+            "latitude": 13.1318,
+            "longitude": 120.2573
+        },
+        {
+            "id": "Z-029",
+            "type": "zone",
+            "latitude": 14.2088,
+            "longitude": 121.3412
+        },
+        {
+            "id": "Z-030",
+            "type": "zone",
+            "latitude": 13.0835,
+            "longitude": 120.9471
+        },
+        {
+            "id": "Z-031",
+            "type": "zone",
+            "latitude": 14.2635,
+            "longitude": 121.1425
+        },
+        {
+            "id": "Z-032",
+            "type": "zone",
+            "latitude": 13.0775,
+            "longitude": 121.5099
+        },
+        {
+            "id": "Z-033",
+            "type": "zone",
+            "latitude": 13.0274,
+            "longitude": 121.2557
+        },
+        {
+            "id": "Z-034",
+            "type": "zone",
+            "latitude": 14.0454,
+            "longitude": 121.3497
+        },
+        {
+            "id": "Z-035",
+            "type": "zone",
+            "latitude": 14.4959,
+            "longitude": 121.2159
+        },
+        {
+            "id": "Z-036",
+            "type": "zone",
+            "latitude": 14.3449,
+            "longitude": 121.0224
+        },
+        {
+            "id": "Z-037",
+            "type": "zone",
+            "latitude": 13.864,
+            "longitude": 121.9297
+        },
+        {
+            "id": "Z-038",
+            "type": "zone",
+            "latitude": 14.3761,
+            "longitude": 120.0305
+        },
+        {
+            "id": "Z-039",
+            "type": "zone",
+            "latitude": 13.008,
+            "longitude": 121.4961
+        },
+        {
+            "id": "Z-040",
+            "type": "zone",
+            "latitude": 14.4626,
+            "longitude": 121.4138
+        },
+        {
+            "id": "Z-041",
+            "type": "zone",
+            "latitude": 13.7361,
+            "longitude": 121.7904
+        },
+        {
+            "id": "Z-042",
+            "type": "zone",
+            "latitude": 14.0843,
+            "longitude": 121.4976
+        },
+        {
+            "id": "Z-043",
+            "type": "zone",
+            "latitude": 14.2313,
+            "longitude": 122.067
+        },
+        {
+            "id": "Z-044",
+            "type": "zone",
+            "latitude": 14.0777,
+            "longitude": 122.3977
+        },
+        {
+            "id": "Z-045",
+            "type": "zone",
+            "latitude": 13.8026,
+            "longitude": 120.8563
+        },
+        {
+            "id": "Z-046",
+            "type": "zone",
+            "latitude": 13.7149,
+            "longitude": 120.5684
+        },
+        {
+            "id": "Z-047",
+            "type": "zone",
+            "latitude": 14.2579,
+            "longitude": 121.059
+        },
+        {
+            "id": "Z-048",
+            "type": "zone",
+            "latitude": 13.3076,
+            "longitude": 120.7198
+        },
+        {
+            "id": "Z-049",
+            "type": "zone",
+            "latitude": 14.452,
+            "longitude": 121.5374
+        },
+        {
+            "id": "Z-050",
+            "type": "zone",
+            "latitude": 14.0664,
+            "longitude": 122.2796
+        },
+        {
+            "id": "Z-051",
+            "type": "zone",
+            "latitude": 13.2993,
+            "longitude": 120.3478
+        },
+        {
+            "id": "Z-052",
+            "type": "zone",
+            "latitude": 14.1044,
+            "longitude": 120.252
+        },
+        {
+            "id": "Z-053",
+            "type": "zone",
+            "latitude": 13.7948,
+            "longitude": 120.64
+        },
+        {
+            "id": "Z-054",
+            "type": "zone",
+            "latitude": 14.0608,
+            "longitude": 121.8152
+        },
+        {
+            "id": "Z-055",
+            "type": "zone",
+            "latitude": 14.1517,
+            "longitude": 121.4824
+        },
+        {
+            "id": "Z-056",
+            "type": "zone",
+            "latitude": 13.1309,
+            "longitude": 120.2555
+        },
+        {
+            "id": "Z-057",
+            "type": "zone",
+            "latitude": 13.7592,
+            "longitude": 122.2969
+        },
+        {
+            "id": "Z-058",
+            "type": "zone",
+            "latitude": 14.398,
+            "longitude": 121.9752
+        },
+        {
+            "id": "Z-059",
+            "type": "zone",
+            "latitude": 13.481,
+            "longitude": 120.0576
+        },
+        {
+            "id": "Z-060",
+            "type": "zone",
+            "latitude": 13.8908,
+            "longitude": 121.6284
+        },
+        {
+            "id": "Z-061",
+            "type": "zone",
+            "latitude": 13.5538,
+            "longitude": 121.9281
+        },
+        {
+            "id": "Z-062",
+            "type": "zone",
+            "latitude": 13.6814,
+            "longitude": 120.9361
+        },
+        {
+            "id": "Z-063",
+            "type": "zone",
+            "latitude": 13.8229,
+            "longitude": 120.1723
+        },
+        {
+            "id": "Z-064",
+            "type": "zone",
+            "latitude": 13.8234,
+            "longitude": 120.1933
+        },
+        {
+            "id": "Z-065",
+            "type": "zone",
+            "latitude": 13.3026,
+            "longitude": 120.2606
+        },
+        {
+            "id": "Z-066",
+            "type": "zone",
+            "latitude": 14.0269,
+            "longitude": 122.1011
+        },
+        {
+            "id": "Z-067",
+            "type": "zone",
+            "latitude": 13.1318,
+            "longitude": 122.2767
+        },
+        {
+            "id": "Z-068",
+            "type": "zone",
+            "latitude": 13.2082,
+            "longitude": 120.307
+        },
+        {
+            "id": "Z-069",
+            "type": "zone",
+            "latitude": 13.0041,
+            "longitude": 120.5898
+        },
+        {
+            "id": "Z-070",
+            "type": "zone",
+            "latitude": 13.175,
+            "longitude": 120.4138
+        },
+        {
+            "id": "Z-071",
+            "type": "zone",
+            "latitude": 13.7097,
+            "longitude": 120.4658
+        },
+        {
+            "id": "Z-072",
+            "type": "zone",
+            "latitude": 13.9092,
+            "longitude": 122.0937
+        },
+        {
+            "id": "Z-073",
+            "type": "zone",
+            "latitude": 14.1914,
+            "longitude": 120.8304
+        },
+        {
+            "id": "Z-074",
+            "type": "zone",
+            "latitude": 13.16,
+            "longitude": 120.7786
+        },
+        {
+            "id": "Z-075",
+            "type": "zone",
+            "latitude": 14.2761,
+            "longitude": 120.5685
+        },
+        {
+            "id": "Z-076",
+            "type": "zone",
+            "latitude": 14.119,
+            "longitude": 121.5197
+        },
+        {
+            "id": "Z-077",
+            "type": "zone",
+            "latitude": 13.6128,
+            "longitude": 120.9483
+        },
+        {
+            "id": "Z-078",
+            "type": "zone",
+            "latitude": 14.3994,
+            "longitude": 121.8606
+        },
+        {
+            "id": "Z-079",
+            "type": "zone",
+            "latitude": 14.4864,
+            "longitude": 120.5139
+        },
+        {
+            "id": "Z-080",
+            "type": "zone",
+            "latitude": 13.3075,
+            "longitude": 121.9695
+        },
+        {
+            "id": "Z-081",
+            "type": "zone",
+            "latitude": 13.5688,
+            "longitude": 121.5093
+        },
+        {
+            "id": "Z-082",
+            "type": "zone",
+            "latitude": 14.3897,
+            "longitude": 120.2857
+        },
+        {
+            "id": "Z-083",
+            "type": "zone",
+            "latitude": 14.0824,
+            "longitude": 121.0363
+        },
+        {
+            "id": "Z-084",
+            "type": "zone",
+            "latitude": 13.0721,
+            "longitude": 122.1588
+        },
+        {
+            "id": "Z-085",
+            "type": "zone",
+            "latitude": 14.1723,
+            "longitude": 122.3074
+        },
+        {
+            "id": "Z-086",
+            "type": "zone",
+            "latitude": 14.2419,
+            "longitude": 121.1643
+        },
+        {
+            "id": "Z-087",
+            "type": "zone",
+            "latitude": 14.1258,
+            "longitude": 121.2021
+        },
+        {
+            "id": "Z-088",
+            "type": "zone",
+            "latitude": 14.1993,
+            "longitude": 122.2961
+        },
+        {
+            "id": "Z-089",
+            "type": "zone",
+            "latitude": 14.2377,
+            "longitude": 121.4677
+        },
+        {
+            "id": "Z-090",
+            "type": "zone",
+            "latitude": 13.2796,
+            "longitude": 120.0821
+        },
+        {
+            "id": "Z-091",
+            "type": "zone",
+            "latitude": 13.3535,
+            "longitude": 122.2819
+        },
+        {
+            "id": "Z-092",
+            "type": "zone",
+            "latitude": 13.9506,
+            "longitude": 120.6206
+        },
+        {
+            "id": "Z-093",
+            "type": "zone",
+            "latitude": 14.3618,
+            "longitude": 121.4441
+        },
+        {
+            "id": "Z-094",
+            "type": "zone",
+            "latitude": 13.4743,
+            "longitude": 120.4138
+        },
+        {
+            "id": "Z-095",
+            "type": "zone",
+            "latitude": 13.8825,
+            "longitude": 120.0847
+        },
+        {
+            "id": "Z-096",
+            "type": "zone",
+            "latitude": 14.0245,
+            "longitude": 120.7787
+        },
+        {
+            "id": "Z-097",
+            "type": "zone",
+            "latitude": 13.6779,
+            "longitude": 121.9512
+        },
+        {
+            "id": "Z-098",
+            "type": "zone",
+            "latitude": 14.0707,
+            "longitude": 120.694
+        },
+        {
+            "id": "Z-099",
+            "type": "zone",
+            "latitude": 14.3495,
+            "longitude": 120.5502
+        },
+        {
+            "id": "Z-100",
+            "type": "zone",
+            "latitude": 13.9362,
+            "longitude": 120.5317
+        },
+        {
+            "id": "WH-001",
+            "type": "warehouse",
+            "latitude": 14.599,
+            "longitude": 120.984
+        },
+        {
+            "id": "WH-002",
+            "type": "warehouse",
+            "latitude": 13.756,
+            "longitude": 121.058
+        },
+        {
+            "id": "WH-003",
+            "type": "warehouse",
+            "latitude": 13.412,
+            "longitude": 121.18
+        },
+        {
+            "id": "WH-004",
+            "type": "warehouse",
+            "latitude": 13.931,
+            "longitude": 121.613
+        },
+        {
+            "id": "WH-005",
+            "type": "warehouse",
+            "latitude": 13.444,
+            "longitude": 121.841
+        }
+    ],
+    "edges": [
+        {
+            "from_node": "Z-001",
+            "to_node": "Z-029",
+            "distance_km": 5.88
+        },
+        {
+            "from_node": "Z-001",
+            "to_node": "Z-089",
+            "distance_km": 13.0
+        },
+        {
+            "from_node": "Z-001",
+            "to_node": "Z-093",
+            "distance_km": 15.14
+        },
+        {
+            "from_node": "Z-002",
+            "to_node": "Z-030",
+            "distance_km": 17.16
+        },
+        {
+            "from_node": "Z-002",
+            "to_node": "Z-033",
+            "distance_km": 20.88
+        },
+        {
+            "from_node": "WH-003",
+            "to_node": "Z-002",
+            "distance_km": 32.22
+        },
+        {
+            "from_node": "Z-003",
+            "to_node": "Z-018",
+            "distance_km": 12.1
+        },
+        {
+            "from_node": "Z-003",
+            "to_node": "Z-009",
+            "distance_km": 13.19
+        },
+        {
+            "from_node": "Z-003",
+            "to_node": "Z-006",
+            "distance_km": 16.02
+        },
+        {
+            "from_node": "Z-004",
+            "to_node": "Z-048",
+            "distance_km": 18.84
+        },
+        {
+            "from_node": "Z-004",
+            "to_node": "Z-005",
+            "distance_km": 20.75
+        },
+        {
+            "from_node": "Z-004",
+            "to_node": "Z-074",
+            "distance_km": 24.22
+        },
+        {
+            "from_node": "Z-005",
+            "to_node": "Z-077",
+            "distance_km": 11.42
+        },
+        {
+            "from_node": "Z-005",
+            "to_node": "Z-062",
+            "distance_km": 19.13
+        },
+        {
+            "from_node": "Z-006",
+            "to_node": "Z-009",
+            "distance_km": 3.11
+        },
+        {
+            "from_node": "Z-006",
+            "to_node": "Z-026",
+            "distance_km": 10.47
+        },
+        {
+            "from_node": "Z-007",
+            "to_node": "Z-059",
+            "distance_km": 13.1
+        },
+        {
+            "from_node": "Z-007",
+            "to_node": "Z-094",
+            "distance_km": 27.52
+        },
+        {
+            "from_node": "Z-007",
+            "to_node": "Z-065",
+            "distance_km": 27.54
+        },
+        {
+            "from_node": "Z-008",
+            "to_node": "Z-092",
+            "distance_km": 5.76
+        },
+        {
+            "from_node": "Z-008",
+            "to_node": "Z-100",
+            "distance_km": 6.03
+        },
+        {
+            "from_node": "Z-008",
+            "to_node": "Z-098",
+            "distance_km": 17.0
+        },
+        {
+            "from_node": "Z-009",
+            "to_node": "Z-026",
+            "distance_km": 13.26
+        },
+        {
+            "from_node": "WH-002",
+            "to_node": "Z-010",
+            "distance_km": 13.56
+        },
+        {
+            "from_node": "Z-010",
+            "to_node": "Z-026",
+            "distance_km": 23.3
+        },
+        {
+            "from_node": "Z-010",
+            "to_node": "Z-083",
+            "distance_km": 23.37
+        },
+        {
+            "from_node": "Z-011",
+            "to_node": "Z-073",
+            "distance_km": 9.59
+        },
+        {
+            "from_node": "Z-011",
+            "to_node": "Z-096",
+            "distance_km": 10.66
+        },
+        {
+            "from_node": "Z-011",
+            "to_node": "Z-098",
+            "distance_km": 15.37
+        },
+        {
+            "from_node": "Z-012",
+            "to_node": "Z-013",
+            "distance_km": 11.04
+        },
+        {
+            "from_node": "Z-012",
+            "to_node": "Z-020",
+            "distance_km": 11.54
+        },
+        {
+            "from_node": "Z-012",
+            "to_node": "Z-037",
+            "distance_km": 11.56
+        },
+        {
+            "from_node": "Z-013",
+            "to_node": "Z-060",
+            "distance_km": 11.5
+        },
+        {
+            "from_node": "WH-004",
+            "to_node": "Z-013",
+            "distance_km": 14.28
+        },
+        {
+            "from_node": "Z-014",
+            "to_node": "Z-100",
+            "distance_km": 15.9
+        },
+        {
+            "from_node": "Z-014",
+            "to_node": "Z-071",
+            "distance_km": 16.13
+        },
+        {
+            "from_node": "Z-008",
+            "to_node": "Z-014",
+            "distance_km": 21.92
+        },
+        {
+            "from_node": "Z-015",
+            "to_node": "Z-057",
+            "distance_km": 23.84
+        },
+        {
+            "from_node": "Z-015",
+            "to_node": "Z-091",
+            "distance_km": 25.59
+        },
+        {
+            "from_node": "Z-015",
+            "to_node": "Z-061",
+            "distance_km": 29.07
+        },
+        {
+            "from_node": "WH-003",
+            "to_node": "Z-016",
+            "distance_km": 12.24
+        },
+        {
+            "from_node": "Z-006",
+            "to_node": "Z-016",
+            "distance_km": 24.81
+        },
+        {
+            "from_node": "Z-016",
+            "to_node": "Z-026",
+            "distance_km": 25.08
+        },
+        {
+            "from_node": "Z-017",
+            "to_node": "Z-078",
+            "distance_km": 5.6
+        },
+        {
+            "from_node": "Z-017",
+            "to_node": "Z-027",
+            "distance_km": 8.89
+        },
+        {
+            "from_node": "Z-017",
+            "to_node": "Z-022",
+            "distance_km": 11.48
+        },
+        {
+            "from_node": "Z-018",
+            "to_node": "Z-034",
+            "distance_km": 17.41
+        },
+        {
+            "from_node": "WH-004",
+            "to_node": "Z-018",
+            "distance_km": 19.56
+        },
+        {
+            "from_node": "Z-019",
+            "to_node": "Z-091",
+            "distance_km": 23.01
+        },
+        {
+            "from_node": "Z-019",
+            "to_node": "Z-067",
+            "distance_km": 35.15
+        },
+        {
+            "from_node": "Z-015",
+            "to_node": "Z-019",
+            "distance_km": 39.23
+        },
+        {
+            "from_node": "Z-020",
+            "to_node": "Z-041",
+            "distance_km": 9.87
+        },
+        {
+            "from_node": "Z-020",
+            "to_node": "Z-097",
+            "distance_km": 10.83
+        },
+        {
+            "from_node": "Z-021",
+            "to_node": "Z-025",
+            "distance_km": 6.14
+        },
+        {
+            "from_node": "WH-005",
+            "to_node": "Z-021",
+            "distance_km": 9.8
+        },
+        {
+            "from_node": "Z-021",
+            "to_node": "Z-061",
+            "distance_km": 18.53
+        },
+        {
+            "from_node": "Z-022",
+            "to_node": "Z-058",
+            "distance_km": 3.11
+        },
+        {
+            "from_node": "Z-022",
+            "to_node": "Z-078",
+            "distance_km": 9.24
+        },
+        {
+            "from_node": "Z-023",
+            "to_node": "Z-028",
+            "distance_km": 17.26
+        },
+        {
+            "from_node": "Z-023",
+            "to_node": "Z-056",
+            "distance_km": 17.31
+        },
+        {
+            "from_node": "Z-023",
+            "to_node": "Z-070",
+            "distance_km": 19.19
+        },
+        {
+            "from_node": "Z-024",
+            "to_node": "Z-051",
+            "distance_km": 18.22
+        },
+        {
+            "from_node": "Z-024",
+            "to_node": "Z-094",
+            "distance_km": 18.47
+        },
+        {
+            "from_node": "Z-024",
+            "to_node": "Z-070",
+            "distance_km": 20.98
+        },
+        {
+            "from_node": "WH-005",
+            "to_node": "Z-025",
+            "distance_km": 13.04
+        },
+        {
+            "from_node": "Z-025",
+            "to_node": "Z-061",
+            "distance_km": 15.46
+        },
+        {
+            "from_node": "WH-002",
+            "to_node": "Z-026",
+            "distance_km": 19.31
+        },
+        {
+            "from_node": "Z-027",
+            "to_node": "Z-078",
+            "distance_km": 13.98
+        },
+        {
+            "from_node": "Z-022",
+            "to_node": "Z-027",
+            "distance_km": 15.25
+        },
+        {
+            "from_node": "Z-028",
+            "to_node": "Z-056",
+            "distance_km": 0.22
+        },
+        {
+            "from_node": "Z-028",
+            "to_node": "Z-068",
+            "distance_km": 10.06
+        },
+        {
+            "from_node": "Z-029",
+            "to_node": "Z-089",
+            "distance_km": 14.01
+        },
+        {
+            "from_node": "Z-029",
+            "to_node": "Z-055",
+            "distance_km": 16.49
+        },
+        {
+            "from_node": "Z-030",
+            "to_node": "Z-074",
+            "distance_km": 20.13
+        },
+        {
+            "from_node": "Z-004",
+            "to_node": "Z-030",
+            "distance_km": 30.29
+        },
+        {
+            "from_node": "Z-031",
+            "to_node": "Z-086",
+            "distance_km": 3.36
+        },
+        {
+            "from_node": "Z-031",
+            "to_node": "Z-047",
+            "distance_km": 9.02
+        },
+        {
+            "from_node": "Z-031",
+            "to_node": "Z-036",
+            "distance_km": 15.79
+        },
+        {
+            "from_node": "Z-032",
+            "to_node": "Z-039",
+            "distance_km": 7.87
+        },
+        {
+            "from_node": "Z-032",
+            "to_node": "Z-033",
+            "distance_km": 28.09
+        },
+        {
+            "from_node": "Z-002",
+            "to_node": "Z-032",
+            "distance_km": 45.16
+        },
+        {
+            "from_node": "Z-033",
+            "to_node": "Z-039",
+            "distance_km": 26.13
+        },
+        {
+            "from_node": "Z-034",
+            "to_node": "Z-042",
+            "distance_km": 16.53
+        },
+        {
+            "from_node": "Z-029",
+            "to_node": "Z-034",
+            "distance_km": 18.19
+        },
+        {
+            "from_node": "Z-035",
+            "to_node": "Z-040",
+            "distance_km": 21.63
+        },
+        {
+            "from_node": "Z-035",
+            "to_node": "Z-036",
+            "distance_km": 26.76
+        },
+        {
+            "from_node": "Z-031",
+            "to_node": "Z-035",
+            "distance_km": 27.02
+        },
+        {
+            "from_node": "Z-036",
+            "to_node": "Z-047",
+            "distance_km": 10.45
+        },
+        {
+            "from_node": "Z-036",
+            "to_node": "Z-086",
+            "distance_km": 19.1
+        },
+        {
+            "from_node": "Z-020",
+            "to_node": "Z-037",
+            "distance_km": 13.99
+        },
+        {
+            "from_node": "Z-037",
+            "to_node": "Z-072",
+            "distance_km": 18.4
+        },
+        {
+            "from_node": "Z-038",
+            "to_node": "Z-082",
+            "distance_km": 27.53
+        },
+        {
+            "from_node": "Z-038",
+            "to_node": "Z-052",
+            "distance_km": 38.51
+        },
+        {
+            "from_node": "Z-038",
+            "to_node": "Z-079",
+            "distance_km": 53.48
+        },
+        {
+            "from_node": "Z-002",
+            "to_node": "Z-039",
+            "distance_km": 45.45
+        },
+        {
+            "from_node": "Z-040",
+            "to_node": "Z-093",
+            "distance_km": 11.67
+        },
+        {
+            "from_node": "Z-040",
+            "to_node": "Z-049",
+            "distance_km": 13.36
+        },
+        {
+            "from_node": "Z-012",
+            "to_node": "Z-041",
+            "distance_km": 11.83
+        },
+        {
+            "from_node": "Z-013",
+            "to_node": "Z-041",
+            "distance_km": 17.09
+        },
+        {
+            "from_node": "Z-042",
+            "to_node": "Z-076",
+            "distance_km": 4.54
+        },
+        {
+            "from_node": "Z-042",
+            "to_node": "Z-055",
+            "distance_km": 7.67
+        },
+        {
+            "from_node": "Z-027",
+            "to_node": "Z-043",
+            "distance_km": 20.07
+        },
+        {
+            "from_node": "Z-043",
+            "to_node": "Z-058",
+            "distance_km": 21.01
+        },
+        {
+            "from_node": "Z-022",
+            "to_node": "Z-043",
+            "distance_km": 22.87
+        },
+        {
+            "from_node": "Z-044",
+            "to_node": "Z-050",
+            "distance_km": 12.8
+        },
+        {
+            "from_node": "Z-044",
+            "to_node": "Z-085",
+            "distance_km": 14.33
+        },
+        {
+            "from_node": "Z-044",
+            "to_node": "Z-088",
+            "distance_km": 17.4
+        },
+        {
+            "from_node": "Z-045",
+            "to_node": "Z-062",
+            "distance_km": 16.0
+        },
+        {
+            "from_node": "WH-002",
+            "to_node": "Z-045",
+            "distance_km": 22.39
+        },
+        {
+            "from_node": "Z-045",
+            "to_node": "Z-077",
+            "distance_km": 23.33
+        },
+        {
+            "from_node": "Z-046",
+            "to_node": "Z-071",
+            "distance_km": 11.1
+        },
+        {
+            "from_node": "Z-046",
+            "to_node": "Z-053",
+            "distance_km": 11.78
+        },
+        {
+            "from_node": "Z-014",
+            "to_node": "Z-046",
+            "distance_km": 21.97
+        },
+        {
+            "from_node": "Z-047",
+            "to_node": "Z-086",
+            "distance_km": 11.49
+        },
+        {
+            "from_node": "Z-048",
+            "to_node": "Z-074",
+            "distance_km": 17.6
+        },
+        {
+            "from_node": "Z-024",
+            "to_node": "Z-048",
+            "distance_km": 22.8
+        },
+        {
+            "from_node": "Z-049",
+            "to_node": "Z-093",
+            "distance_km": 14.2
+        },
+        {
+            "from_node": "Z-049",
+            "to_node": "Z-089",
+            "distance_km": 24.98
+        },
+        {
+            "from_node": "Z-050",
+            "to_node": "Z-085",
+            "distance_km": 12.15
+        },
+        {
+            "from_node": "Z-050",
+            "to_node": "Z-088",
+            "distance_km": 14.88
+        },
+        {
+            "from_node": "Z-051",
+            "to_node": "Z-065",
+            "distance_km": 9.44
+        },
+        {
+            "from_node": "Z-051",
+            "to_node": "Z-068",
+            "distance_km": 11.05
+        },
+        {
+            "from_node": "Z-051",
+            "to_node": "Z-070",
+            "distance_km": 15.56
+        },
+        {
+            "from_node": "Z-052",
+            "to_node": "Z-095",
+            "distance_km": 30.57
+        },
+        {
+            "from_node": "Z-052",
+            "to_node": "Z-064",
+            "distance_km": 31.88
+        },
+        {
+            "from_node": "Z-052",
+            "to_node": "Z-082",
+            "distance_km": 31.93
+        },
+        {
+            "from_node": "Z-053",
+            "to_node": "Z-092",
+            "distance_km": 17.45
+        },
+        {
+            "from_node": "Z-053",
+            "to_node": "Z-100",
+            "distance_km": 19.59
+        },
+        {
+            "from_node": "Z-013",
+            "to_node": "Z-054",
+            "distance_km": 21.94
+        },
+        {
+            "from_node": "Z-012",
+            "to_node": "Z-054",
+            "distance_km": 24.96
+        },
+        {
+            "from_node": "Z-037",
+            "to_node": "Z-054",
+            "distance_km": 25.13
+        },
+        {
+            "from_node": "Z-055",
+            "to_node": "Z-076",
+            "distance_km": 5.42
+        },
+        {
+            "from_node": "Z-055",
+            "to_node": "Z-089",
+            "distance_km": 9.69
+        },
+        {
+            "from_node": "Z-056",
+            "to_node": "Z-068",
+            "distance_km": 10.25
+        },
+        {
+            "from_node": "Z-057",
+            "to_node": "Z-072",
+            "distance_km": 27.56
+        },
+        {
+            "from_node": "Z-050",
+            "to_node": "Z-057",
+            "distance_km": 34.21
+        },
+        {
+            "from_node": "Z-058",
+            "to_node": "Z-078",
+            "distance_km": 12.34
+        },
+        {
+            "from_node": "Z-017",
+            "to_node": "Z-058",
+            "distance_km": 14.15
+        },
+        {
+            "from_node": "Z-059",
+            "to_node": "Z-090",
+            "distance_km": 22.55
+        },
+        {
+            "from_node": "Z-059",
+            "to_node": "Z-065",
+            "distance_km": 29.59
+        },
+        {
+            "from_node": "WH-004",
+            "to_node": "Z-060",
+            "distance_km": 4.77
+        },
+        {
+            "from_node": "Z-018",
+            "to_node": "Z-060",
+            "distance_km": 21.22
+        },
+        {
+            "from_node": "Z-061",
+            "to_node": "Z-097",
+            "distance_km": 14.02
+        },
+        {
+            "from_node": "WH-005",
+            "to_node": "Z-061",
+            "distance_km": 15.42
+        },
+        {
+            "from_node": "Z-062",
+            "to_node": "Z-077",
+            "distance_km": 7.74
+        },
+        {
+            "from_node": "WH-002",
+            "to_node": "Z-062",
+            "distance_km": 15.56
+        },
+        {
+            "from_node": "Z-063",
+            "to_node": "Z-064",
+            "distance_km": 2.27
+        },
+        {
+            "from_node": "Z-063",
+            "to_node": "Z-095",
+            "distance_km": 11.55
+        },
+        {
+            "from_node": "Z-014",
+            "to_node": "Z-063",
+            "distance_km": 26.53
+        },
+        {
+            "from_node": "Z-064",
+            "to_node": "Z-095",
+            "distance_km": 13.44
+        },
+        {
+            "from_node": "Z-014",
+            "to_node": "Z-064",
+            "distance_km": 24.27
+        },
+        {
+            "from_node": "Z-065",
+            "to_node": "Z-068",
+            "distance_km": 11.64
+        },
+        {
+            "from_node": "Z-028",
+            "to_node": "Z-065",
+            "distance_km": 19.0
+        },
+        {
+            "from_node": "Z-066",
+            "to_node": "Z-072",
+            "distance_km": 13.11
+        },
+        {
+            "from_node": "Z-050",
+            "to_node": "Z-066",
+            "distance_km": 19.75
+        },
+        {
+            "from_node": "Z-043",
+            "to_node": "Z-066",
+            "distance_km": 23.02
+        },
+        {
+            "from_node": "Z-067",
+            "to_node": "Z-084",
+            "distance_km": 14.39
+        },
+        {
+            "from_node": "Z-067",
+            "to_node": "Z-091",
+            "distance_km": 24.66
+        },
+        {
+            "from_node": "Z-023",
+            "to_node": "Z-069",
+            "distance_km": 25.15
+        },
+        {
+            "from_node": "Z-069",
+            "to_node": "Z-074",
+            "distance_km": 26.81
+        },
+        {
+            "from_node": "Z-069",
+            "to_node": "Z-070",
+            "distance_km": 26.92
+        },
+        {
+            "from_node": "Z-068",
+            "to_node": "Z-070",
+            "distance_km": 12.14
+        },
+        {
+            "from_node": "Z-028",
+            "to_node": "Z-070",
+            "distance_km": 17.61
+        },
+        {
+            "from_node": "Z-053",
+            "to_node": "Z-071",
+            "distance_km": 21.06
+        },
+        {
+            "from_node": "Z-050",
+            "to_node": "Z-072",
+            "distance_km": 26.61
+        },
+        {
+            "from_node": "Z-073",
+            "to_node": "Z-096",
+            "distance_km": 19.38
+        },
+        {
+            "from_node": "Z-073",
+            "to_node": "Z-098",
+            "distance_km": 19.91
+        },
+        {
+            "from_node": "Z-075",
+            "to_node": "Z-099",
+            "distance_km": 8.4
+        },
+        {
+            "from_node": "Z-075",
+            "to_node": "Z-079",
+            "distance_km": 24.11
+        },
+        {
+            "from_node": "Z-075",
+            "to_node": "Z-098",
+            "distance_km": 26.55
+        },
+        {
+            "from_node": "Z-076",
+            "to_node": "Z-089",
+            "distance_km": 14.34
+        },
+        {
+            "from_node": "WH-002",
+            "to_node": "Z-077",
+            "distance_km": 19.85
+        },
+        {
+            "from_node": "Z-079",
+            "to_node": "Z-099",
+            "distance_km": 15.72
+        },
+        {
+            "from_node": "Z-079",
+            "to_node": "Z-082",
+            "distance_km": 26.82
+        },
+        {
+            "from_node": "WH-005",
+            "to_node": "Z-080",
+            "distance_km": 20.58
+        },
+        {
+            "from_node": "Z-061",
+            "to_node": "Z-080",
+            "distance_km": 27.75
+        },
+        {
+            "from_node": "Z-021",
+            "to_node": "Z-080",
+            "distance_km": 30.24
+        },
+        {
+            "from_node": "Z-009",
+            "to_node": "Z-081",
+            "distance_km": 23.47
+        },
+        {
+            "from_node": "Z-006",
+            "to_node": "Z-081",
+            "distance_km": 25.04
+        },
+        {
+            "from_node": "Z-003",
+            "to_node": "Z-081",
+            "distance_km": 26.99
+        },
+        {
+            "from_node": "Z-082",
+            "to_node": "Z-099",
+            "distance_km": 28.84
+        },
+        {
+            "from_node": "Z-083",
+            "to_node": "Z-087",
+            "distance_km": 18.52
+        },
+        {
+            "from_node": "Z-047",
+            "to_node": "Z-083",
+            "distance_km": 19.67
+        },
+        {
+            "from_node": "Z-011",
+            "to_node": "Z-083",
+            "distance_km": 22.18
+        },
+        {
+            "from_node": "Z-080",
+            "to_node": "Z-084",
+            "distance_km": 33.24
+        },
+        {
+            "from_node": "Z-084",
+            "to_node": "Z-091",
+            "distance_km": 34.01
+        },
+        {
+            "from_node": "Z-085",
+            "to_node": "Z-088",
+            "distance_km": 3.24
+        },
+        {
+            "from_node": "Z-086",
+            "to_node": "Z-087",
+            "distance_km": 13.54
+        },
+        {
+            "from_node": "Z-031",
+            "to_node": "Z-087",
+            "distance_km": 16.6
+        },
+        {
+            "from_node": "Z-029",
+            "to_node": "Z-087",
+            "distance_km": 17.61
+        },
+        {
+            "from_node": "Z-065",
+            "to_node": "Z-090",
+            "distance_km": 19.49
+        },
+        {
+            "from_node": "Z-056",
+            "to_node": "Z-090",
+            "distance_km": 25.02
+        },
+        {
+            "from_node": "Z-092",
+            "to_node": "Z-100",
+            "distance_km": 9.73
+        },
+        {
+            "from_node": "Z-092",
+            "to_node": "Z-098",
+            "distance_km": 15.53
+        },
+        {
+            "from_node": "Z-089",
+            "to_node": "Z-093",
+            "distance_km": 14.03
+        },
+        {
+            "from_node": "Z-051",
+            "to_node": "Z-094",
+            "distance_km": 20.73
+        },
+        {
+            "from_node": "Z-065",
+            "to_node": "Z-094",
+            "distance_km": 25.28
+        },
+        {
+            "from_node": "Z-096",
+            "to_node": "Z-098",
+            "distance_km": 10.48
+        },
+        {
+            "from_node": "Z-092",
+            "to_node": "Z-096",
+            "distance_km": 18.93
+        },
+        {
+            "from_node": "Z-041",
+            "to_node": "Z-097",
+            "distance_km": 18.54
+        },
+        {
+            "from_node": "WH-001",
+            "to_node": "Z-035",
+            "distance_km": 27.47
+        },
+        {
+            "from_node": "WH-001",
+            "to_node": "Z-036",
+            "distance_km": 28.56
+        },
+        {
+            "from_node": "WH-001",
+            "to_node": "Z-047",
+            "distance_km": 38.78
+        },
+        {
+            "from_node": "WH-003",
+            "to_node": "Z-005",
+            "distance_km": 24.57
+        }
+    ]
+}

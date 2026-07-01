@@ -1,0 +1,19 @@
+{
+  "resources": [
+    {"id": "RES-WTR", "name": "Water", "category": "Immediate", "weight_kg": 1.0},
+    {"id": "RES-FOD", "name": "Food", "category": "Immediate", "weight_kg": 0.5},
+    {"id": "RES-MED", "name": "Medicine", "category": "Immediate", "weight_kg": 0.2},
+    {"id": "RES-RBT", "name": "Rescue Boats", "category": "Immediate", "weight_kg": 250.0},
+    {"id": "RES-AMB", "name": "Ambulance", "category": "Immediate", "weight_kg": 2500.0},
+    {"id": "RES-BKT", "name": "Blankets", "category": "Immediate", "weight_kg": 1.5},
+    {"id": "RES-TNT", "name": "Tents", "category": "Short Term", "weight_kg": 15.0},
+    {"id": "RES-TLT", "name": "Toilets", "category": "Short Term", "weight_kg": 45.0},
+    {"id": "RES-HYG", "name": "Hygiene Kits", "category": "Short Term", "weight_kg": 2.0},
+    {"id": "RES-BBF", "name": "Baby Food", "category": "Short Term", "weight_kg": 0.5},
+    {"id": "RES-GEN", "name": "Generator", "category": "Short Term", "weight_kg": 75.0},
+    {"id": "RES-CLO", "name": "Clothing", "category": "Short Term", "weight_kg": 1.0},
+    {"id": "RES-CMT", "name": "Construction Materials", "category": "Recovery", "weight_kg": 500.0},
+    {"id": "RES-RFS", "name": "Roofing Sheets", "category": "Recovery", "weight_kg": 12.0},
+    {"id": "RES-SCH", "name": "School Kits", "category": "Recovery", "weight_kg": 3.0}
+  ]
+}
