@@ -26,6 +26,9 @@ def main():
     st.title("🌍 Transparent Predictive Relief Chain")
     st.markdown("### AI-Optimized Allocation. Blockchain-Secured Accountability.")
     
+    # Check if baseline data exists (useful for first-time deployments)
+    data_ready = os.path.exists(os.path.join(DATA_DIR, "zones.csv"))
+    
     # Load Current Scenario parameters
     curr_scenario = scenario_engine.get_active_scenario()
     
@@ -39,106 +42,123 @@ def main():
                 from data.generator import run_all
                 run_all()
                 scenario_engine.reset_scenarios()
-                sit_manager.refresh_situation()
+                try:
+                    sit_manager.refresh_situation()
+                except Exception:
+                    pass
                 st.success("New baseline synthetic data generated!")
                 st.rerun()
                 
-        st.subheader("2. Live Actions")
-        if st.button("Run ML Allocation & Log to Chain", type="primary", help="Trigger ML Demand Forecasting, Fleet Routing, Inventory Updates, and ledger block logging"):
-            with st.spinner("Running optimization pipeline..."):
-                try:
-                    response = requests.post(f"{API_URL}/allocate")
-                    if response.status_code == 200:
-                        data = response.json()
-                        st.success("✅ Allocation Completed & Logged!")
-                        st.info(f"**Transaction Hash:** `{data['blockchain_receipt']['transaction_hash']}`")
-                        st.rerun()
-                    else:
-                        st.error(f"API Error: {response.text}")
-                except requests.exceptions.ConnectionError:
-                    st.error("❌ Failed to connect to API. Is FastAPI running? Run: `uvicorn api:app --reload`")
-                    
-        st.subheader("3. Scenario Simulator")
-        st.info("Simulate disaster severity parameters to instantly trigger routing changes.")
-        
-        # Rainfall slider
-        rain_val = st.slider(
-            "Rainfall Modifier", 
-            min_value=1.0, 
-            max_value=3.0, 
-            value=float(curr_scenario.get("rain_modifier", 1.0)),
-            step=0.1,
-            help="Increases weather severity, disabling flight paths for Drones & Helicopters"
-        )
-        if rain_val != curr_scenario.get("rain_modifier", 1.0):
-            scenario_engine.set_rainfall_modifier(rain_val)
-            sit_manager.refresh_situation(rain_modifier=rain_val, affected_pop_modifier=curr_scenario.get("affected_population_modifier", 1.0))
-            st.rerun()
+        if not data_ready:
+            st.warning("⚠️ Initial data missing. Please generate data first.")
+        else:
+            st.subheader("2. Live Actions")
+            if st.button("Run ML Allocation & Log to Chain", type="primary", help="Trigger ML Demand Forecasting, Fleet Routing, Inventory Updates, and ledger block logging"):
+                with st.spinner("Running optimization pipeline..."):
+                    try:
+                        response = requests.post(f"{API_URL}/allocate")
+                        if response.status_code == 200:
+                            data = response.json()
+                            st.success("✅ Allocation Completed & Logged!")
+                            st.info(f"**Transaction Hash:** `{data['blockchain_receipt']['transaction_hash']}`")
+                            st.rerun()
+                        else:
+                            st.error(f"API Error: {response.text}")
+                    except requests.exceptions.ConnectionError:
+                        st.error("❌ Failed to connect to API. Is FastAPI running? Run: `uvicorn api:app --reload`")
+                        
+            st.subheader("3. Scenario Simulator")
+            st.info("Simulate disaster severity parameters to instantly trigger routing changes.")
             
-        # Population factor
-        pop_val = st.slider(
-            "Affected Population Factor", 
-            min_value=1.0, 
-            max_value=2.5, 
-            value=float(curr_scenario.get("affected_population_modifier", 1.0)),
-            step=0.1,
-            help="Multiplies displaced/affected numbers, scaling up required supply demands"
-        )
-        if pop_val != curr_scenario.get("affected_population_modifier", 1.0):
-            scenario_engine.set_affected_population_modifier(pop_val)
-            sit_manager.refresh_situation(rain_modifier=rain_val, affected_pop_modifier=pop_val)
-            st.rerun()
-            
-        # Warehouse failures
-        wh_options = ["WH-001", "WH-002", "WH-003", "WH-004", "WH-005"]
-        failed_whs = st.multiselect(
-            "Simulate Warehouse Failures",
-            options=wh_options,
-            default=curr_scenario.get("failed_warehouses", []),
-            help="Offline depots cannot dispatch any resources"
-        )
-        if sorted(failed_whs) != sorted(curr_scenario.get("failed_warehouses", [])):
-            for w in wh_options:
-                scenario_engine.toggle_warehouse_failure(w, w in failed_whs)
-            st.rerun()
-            
-        # Disabled Vehicles
-        vehicle_options = ["Truck", "Boat", "Helicopter", "Drone"]
-        disabled_vehs = st.multiselect(
-            "Simulate Fleet Breakdowns",
-            options=vehicle_options,
-            default=curr_scenario.get("disabled_vehicles", []),
-            help="Disables specific vehicle types from the optimization fleet pool"
-        )
-        if sorted(disabled_vehs) != sorted(curr_scenario.get("disabled_vehicles", [])):
-            for v in vehicle_options:
-                scenario_engine.toggle_vehicle_breakdown(v, v in disabled_vehs)
-            st.rerun()
-            
-        # Blocked Roads
-        zone_options = [f"Z-{str(i).zfill(3)}" for i in range(1, 101)]
-        blocked_nodes = st.multiselect(
-            "Simulate Road Blockages (Zones)",
-            options=zone_options,
-            default=curr_scenario.get("blocked_zones", []),
-            help="Simulates structural damage, preventing Trucks from driving through these zones"
-        )
-        if sorted(blocked_nodes) != sorted(curr_scenario.get("blocked_zones", [])):
-            for z in zone_options:
-                scenario_engine.toggle_road_blockage(z, z in blocked_nodes)
-            sit_manager.refresh_situation(
-                rain_modifier=rain_val, 
-                affected_pop_modifier=pop_val,
-                blocked_zones=blocked_nodes
+            # Rainfall slider
+            rain_val = st.slider(
+                "Rainfall Modifier", 
+                min_value=1.0, 
+                max_value=3.0, 
+                value=float(curr_scenario.get("rain_modifier", 1.0)),
+                step=0.1,
+                help="Increases weather severity, disabling flight paths for Drones & Helicopters"
             )
-            st.rerun()
-            
-        if st.button("Reset All Modifiers", help="Clears all scenario overrides"):
-            scenario_engine.reset_scenarios()
-            sit_manager.refresh_situation()
-            st.success("Scenarios reset successfully!")
-            st.rerun()
-            
+            if rain_val != curr_scenario.get("rain_modifier", 1.0):
+                scenario_engine.set_rainfall_modifier(rain_val)
+                sit_manager.refresh_situation(rain_modifier=rain_val, affected_pop_modifier=curr_scenario.get("affected_population_modifier", 1.0))
+                st.rerun()
+                
+            # Population factor
+            pop_val = st.slider(
+                "Affected Population Factor", 
+                min_value=1.0, 
+                max_value=2.5, 
+                value=float(curr_scenario.get("affected_population_modifier", 1.0)),
+                step=0.1,
+                help="Multiplies displaced/affected numbers, scaling up required supply demands"
+            )
+            if pop_val != curr_scenario.get("affected_population_modifier", 1.0):
+                scenario_engine.set_affected_population_modifier(pop_val)
+                sit_manager.refresh_situation(rain_modifier=rain_val, affected_pop_modifier=pop_val)
+                st.rerun()
+                
+            # Warehouse failures
+            wh_options = ["WH-001", "WH-002", "WH-003", "WH-004", "WH-005"]
+            failed_whs = st.multiselect(
+                "Simulate Warehouse Failures",
+                options=wh_options,
+                default=curr_scenario.get("failed_warehouses", []),
+                help="Offline depots cannot dispatch any resources"
+            )
+            if sorted(failed_whs) != sorted(curr_scenario.get("failed_warehouses", [])):
+                for w in wh_options:
+                    scenario_engine.toggle_warehouse_failure(w, w in failed_whs)
+                st.rerun()
+                
+            # Disabled Vehicles
+            vehicle_options = ["Truck", "Boat", "Helicopter", "Drone"]
+            disabled_vehs = st.multiselect(
+                "Simulate Fleet Breakdowns",
+                options=vehicle_options,
+                default=curr_scenario.get("disabled_vehicles", []),
+                help="Disables specific vehicle types from the optimization fleet pool"
+            )
+            if sorted(disabled_vehs) != sorted(curr_scenario.get("disabled_vehicles", [])):
+                for v in vehicle_options:
+                    scenario_engine.toggle_vehicle_breakdown(v, v in disabled_vehs)
+                st.rerun()
+                
+            # Blocked Roads
+            zone_options = [f"Z-{str(i).zfill(3)}" for i in range(1, 101)]
+            blocked_nodes = st.multiselect(
+                "Simulate Road Blockages (Zones)",
+                options=zone_options,
+                default=curr_scenario.get("blocked_zones", []),
+                help="Simulates structural damage, preventing Trucks from driving through these zones"
+            )
+            if sorted(blocked_nodes) != sorted(curr_scenario.get("blocked_zones", [])):
+                for z in zone_options:
+                    scenario_engine.toggle_road_blockage(z, z in blocked_nodes)
+                sit_manager.refresh_situation(
+                    rain_modifier=rain_val, 
+                    affected_pop_modifier=pop_val,
+                    blocked_zones=blocked_nodes
+                )
+                st.rerun()
+                
+            if st.button("Reset All Modifiers", help="Clears all scenario overrides"):
+                scenario_engine.reset_scenarios()
+                sit_manager.refresh_situation()
+                st.success("Scenarios reset successfully!")
+                st.rerun()
+
+    if not data_ready:
+        st.info("👋 **Welcome to the Transparent Predictive Relief Chain!**")
+        st.warning("⚠️ **Initial disaster data is not generated yet.**")
+        st.markdown(
+            "To get started and initialize the application:\n"
+            "1. Look at the **Control Center** in the sidebar on the left.\n"
+            "2. Click the **'Regenerate Disaster Data'** button.\n"
+            "3. Once the baseline data is simulated, the full dashboard will appear!"
+        )
+        return
+        
     # Load Zones and Warehouses state for dashboard components
     zones_df = pd.read_csv(os.path.join(DATA_DIR, "zones.csv"))
     status_df = pd.read_csv(os.path.join(DATA_DIR, "disaster_status.csv"))
