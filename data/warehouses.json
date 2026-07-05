@@ -7,21 +7,21 @@
         "capacity": 1000000.0,
         "availability": true,
         "inventory": {
-            "RES-WTR": 236813,
-            "RES-FOD": 182409,
-            "RES-MED": 179225,
+            "RES-WTR": 240000,
+            "RES-FOD": 211107,
+            "RES-MED": 119460,
             "RES-RBT": 240000,
             "RES-AMB": 240000,
             "RES-BKT": 240000,
-            "RES-TNT": 58819,
-            "RES-TLT": 59648,
+            "RES-TNT": 59238,
+            "RES-TLT": 59773,
             "RES-HYG": 60000,
             "RES-BBF": 60000,
-            "RES-GEN": 59462,
+            "RES-GEN": 59672,
             "RES-CLO": 60000,
             "RES-CMT": 24000,
-            "RES-RFS": 23463,
-            "RES-SCH": 21729
+            "RES-RFS": 23747,
+            "RES-SCH": 21561
         }
     },
     {
@@ -32,21 +32,21 @@
         "capacity": 500000.0,
         "availability": true,
         "inventory": {
-            "RES-WTR": 132461,
-            "RES-FOD": 0,
-            "RES-MED": 16069,
+            "RES-WTR": 143759,
+            "RES-FOD": 100780,
+            "RES-MED": 0,
             "RES-RBT": 150000,
             "RES-AMB": 150000,
             "RES-BKT": 150000,
-            "RES-TNT": 21983,
-            "RES-TLT": 23825,
+            "RES-TNT": 23311,
+            "RES-TLT": 24495,
             "RES-HYG": 25000,
             "RES-BBF": 25000,
-            "RES-GEN": 23412,
+            "RES-GEN": 23965,
             "RES-CLO": 25000,
             "RES-CMT": 10000,
-            "RES-RFS": 8092,
-            "RES-SCH": 4415
+            "RES-RFS": 10000,
+            "RES-SCH": 4301
         }
     },
     {
@@ -58,20 +58,20 @@
         "availability": true,
         "inventory": {
             "RES-WTR": 64000,
-            "RES-FOD": 0,
+            "RES-FOD": 50987,
             "RES-MED": 0,
             "RES-RBT": 64000,
             "RES-AMB": 64000,
             "RES-BKT": 64000,
-            "RES-TNT": 14733,
-            "RES-TLT": 18149,
+            "RES-TNT": 18504,
+            "RES-TLT": 19301,
             "RES-HYG": 20000,
             "RES-BBF": 20000,
-            "RES-GEN": 18755,
+            "RES-GEN": 19275,
             "RES-CLO": 20000,
             "RES-CMT": 8000,
-            "RES-RFS": 6732,
-            "RES-SCH": 5769
+            "RES-RFS": 8000,
+            "RES-SCH": 3027
         }
     },
     {
@@ -83,20 +83,20 @@
         "availability": true,
         "inventory": {
             "RES-WTR": 120000,
-            "RES-FOD": 0,
+            "RES-FOD": 92516,
             "RES-MED": 0,
             "RES-RBT": 120000,
             "RES-AMB": 120000,
             "RES-BKT": 120000,
-            "RES-TNT": 24915,
-            "RES-TLT": 28480,
+            "RES-TNT": 27021,
+            "RES-TLT": 29109,
             "RES-HYG": 30000,
             "RES-BBF": 30000,
-            "RES-GEN": 28726,
+            "RES-GEN": 29137,
             "RES-CLO": 30000,
             "RES-CMT": 12000,
-            "RES-RFS": 10735,
-            "RES-SCH": 6574
+            "RES-RFS": 11661,
+            "RES-SCH": 6727
         }
     },
     {
@@ -107,21 +107,21 @@
         "capacity": 300000.0,
         "availability": true,
         "inventory": {
-            "RES-WTR": 21907,
+            "RES-WTR": 30000,
             "RES-FOD": 0,
             "RES-MED": 0,
             "RES-RBT": 30000,
             "RES-AMB": 30000,
             "RES-BKT": 30000,
-            "RES-TNT": 4617,
-            "RES-TLT": 6636,
+            "RES-TNT": 6554,
+            "RES-TLT": 7217,
             "RES-HYG": 7500,
             "RES-BBF": 7500,
-            "RES-GEN": 6846,
+            "RES-GEN": 7071,
             "RES-CLO": 7500,
             "RES-CMT": 3000,
-            "RES-RFS": 2279,
-            "RES-SCH": 1009
+            "RES-RFS": 2748,
+            "RES-SCH": 765
         }
     }
 ]

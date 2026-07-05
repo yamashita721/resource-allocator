@@ -395,8 +395,12 @@ def main():
         st.markdown("ML-predicted shortage risks within the next 48 hours:")
         
         # Load prediction status
-        from ml.demand_predictor import DemandPredictor
-        predictor = DemandPredictor()
+        @st.cache_resource
+        def get_predictor():
+            from ml.demand_predictor import DemandPredictor
+            return DemandPredictor()
+            
+        predictor = get_predictor()
         
         shortages_rows = []
         for idx, row in merged_with_priority.iterrows():

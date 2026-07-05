@@ -8,7 +8,8 @@ SCENARIO_PATH = os.path.join(DATA_DIR, "active_scenario.json")
 class SimulationScenarioEngine:
     def __init__(self, data_dir: str = DATA_DIR):
         self.data_dir = data_dir
-        self.reset_scenarios()
+        if not os.path.exists(SCENARIO_PATH):
+            self.reset_scenarios()
 
     def get_active_scenario(self) -> Dict[str, Any]:
         if os.path.exists(SCENARIO_PATH):

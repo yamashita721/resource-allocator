@@ -2,6 +2,6 @@
     "failed_warehouses": [],
     "blocked_zones": [],
     "disabled_vehicles": [],
-    "rain_modifier": 1.0,
+    "rain_modifier": 2.5,
     "affected_population_modifier": 1.0
 }
